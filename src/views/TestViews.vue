@@ -1,11 +1,13 @@
 <template>
-    $END$
+  <TestElementUi msg="asdasd"/>
 </template>
 
 <script>
-  export default {
-    name: 'TestViews'
-  }
+import TestElementUi from '@/components/TestElmentUi'
+export default {
+  name: 'TestViews',
+  components: { TestElementUi }
+}
 </script>
 
 <style scoped>
