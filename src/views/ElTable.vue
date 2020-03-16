@@ -1,6 +1,5 @@
 <template>
   <div id="ElTable">
-    <iframe src="//player.bilibili.com/player.html?aid=84697367&cid=144850819&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
     <el-table
       :show-header=true
       :stripe=true
